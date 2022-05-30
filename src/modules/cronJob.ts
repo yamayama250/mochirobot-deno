@@ -7,14 +7,14 @@ import { sendMessage } from "./sendMessage.ts"
  * @param bot 
  */
 export function cronJob(bot: Bot) {
-  cron("0 0 9 * * *", () => {
+  cron("0 0 0 * * *", () => {
     sendMessage(
       bot,
       BigInt(Deno.env.get("CHANNEL_ID")!),
       "みんなおはモチー!！ストア確認した！？した！？した！？！？"
     )
   })
-  cron("0 0 21 * * *", () => {
+  cron("0 0 12 * * *", () => {
     sendMessage(
       bot,
       BigInt(Deno.env.get("CHANNEL_ID")!),
