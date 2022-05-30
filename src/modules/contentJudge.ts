@@ -25,7 +25,6 @@ const wordList: WordList = {
     { content: "ねいろさん", message: "りき？" },
     { content: "ねとろま", message: "ねとろまくん大好き" },
     { content: "あすか", message: "もちもち～～～！！！！" },
-    { content: "ねとろま", message: "ねとろまくん大好き" }
   ]
 }
 
